@@ -2,3 +2,53 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.area {
+  margin: 15px 0 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input-area {
+  background: rgb(188, 222, 240);
+}
+
+.incomplete-area {
+ background: rgb(142, 142, 226); 
+}
+
+.complete-area {
+ background: rgb(205, 235, 205); 
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.title-area {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 0 0 15px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  height: 30px;
+  transition: opacity .3s;
+}
+
+button:hover {
+  opacity: .7;
+  transition: opacity .3s;
+}
